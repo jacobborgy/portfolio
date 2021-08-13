@@ -101,3 +101,17 @@ body {
 }
 
 
+@media (max-width: 990px) {
+    #sectionIntro h2 {
+        /* font-weight: 12; */
+        font-size: 3rem;
+    }
+    #sectionIntro h3 {
+        /* font-weight: 12; */
+        font-size: 3rem;
+    }
+    /* body {
+        overflow-x: hidden;
+    } */
+    
+}

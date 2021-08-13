@@ -21,45 +21,55 @@
 </head>
 
 
+
+
 <body>
 
   <!-- NavBar -->
+  <header>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md  pt-3 pb-3">
+      <a class="navbar-brand ml-4" href="#">JB</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md  py-3 px-3 mx-0">
-    <a class="navbar-brand mx-2" href="#">JB</a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav mr-auto">
 
-    <div class="collapse navbar-collapse" id="navLinks">
-      <ul class="navbar-nav mr-auto">
+        </ul>
+        <ul class="navbar-nav mr-4">
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#"><span>01. </span>About</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#"><span>02. </span>Skills</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#"><span>03. </span>Projects</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#"><span>04. </span>Contact</a>
+          </li>
+          <li class="nav-item">
+            <button onclick="window.location.href='Resume_2021.pdf';" id="resumeBtn" class="btn btn-outline-info my-2 my-sm-0" type="submit">Resume</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-      </ul>
-      <ul class="navbar-nav mx-2">
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="#"><span>01. </span>About</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="#"><span>02. </span>Skills</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="#"><span>03. </span>Projects</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="#"><span>04. </span>Contact</a>
-        </li>
-        <li class="nav-item mx-2">
-          <button onclick="window.location.href='Resume_2021.pdf';" id="resumeBtn"
-            class="btn btn-outline-info my-2 my-sm-0" type="submit">Resume</button>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <!-- Left Sidebar -->
+  <!-- <div orientation="right">
+    <a href="mailto:jacobborgerding22@gmail.com">jacobborgerding22@gmail.com</a>
+  </div> -->
 
+
+  <!-- Right Sidebar -->
+  <div></div>
 
 
   <!-- Main Content -->
-  <section class="container-fluid px-0 mx-0">
+  <section class="cointainer-fluid px-3 mx-0">
     <div id="firstRow" class="row">
       <div class="col">
         1 of 3
@@ -75,11 +85,8 @@
           <a id="getInTouch" href="mailto:jacobborgerding22@gmail.com">Get In Touch</a>
         </div>
       </div>
-      <div class="col">
-        3 of 3
-      </div>
+      <div class="col"></div>
     </div>
-  </section>
 
 
 
