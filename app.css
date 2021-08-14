@@ -96,19 +96,29 @@ body {
 }
 
 
-#firstRow {
-    padding: 10% 0;
+/* #firstRow {
+    padding: 200px 0;
+} */
+
+.eachRow {
+    padding: 250px 0;
 }
 
 
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    #firstRow {
-        padding: 100px 20px;
+    .eachRow {
+        padding: 200px 20px;
+        padding-bottom: 50px;
     }
+
+    /* #firstRow {
+        padding: 200px 20px;
+    } */
     #sectionIntro {
         padding: 20px 0px;
+        /* margin: 0px 100px; */
     }
     #sectionIntro h1 {
         font-size: 1.25rem;
@@ -127,6 +137,11 @@ body {
     }
     #sectionIntro a {
         font-size: 1.25rem;
+    }
+
+    .leftCol, .rightCol {
+        padding: 0;
+        margin: 0;
     }
 
 }
