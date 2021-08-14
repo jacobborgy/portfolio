@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
 }
 
+
 #mainNavbar {
     font-size: 1rem;
     background-color: #222629;
@@ -50,19 +51,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-/* #sectionIntro {
-    padding: 200px;
-    align-items: center;
-} */
-
 #sectionIntro h1{
     color: #3AAFA9;
     font-size: 1.5em;
@@ -94,11 +82,6 @@ body {
 #sectionIntro a:hover{
     background-color: rgb(58, 175, 169, .2);
 }
-
-
-/* #firstRow {
-    padding: 200px 0;
-} */
 
 .eachRow {
     padding: 250px 0;
