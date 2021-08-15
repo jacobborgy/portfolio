@@ -114,7 +114,27 @@ a.keyWord:hover:before {
 }
 
 
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(58, 175, 169, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 
+.navbar-dark .navbar-toggler {
+    color: #3AAFA9;
+    border-color: #3AAFA9;
+    outline: none;
+}
+
+/* .brSM {
+    display: none;
+} */
+
+/* a.nav-link {
+
+} */
+
+ul {
+    margin-right: 24px;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -159,18 +179,35 @@ a.keyWord:hover:before {
         font-size: 5rem;
     } */
 
-    .navbar-dark .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(58, 175, 169, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-      }
-
-    .navbar-dark .navbar-toggler {
-        color: #3AAFA9;
-        border-color: #3AAFA9;
-        outline: none;
-    }
-    /* .navbar-toggler-icon{
-        color: #3AAFA9;
+    /* #navLinks.navbar-collapse {
+        align-items: flex-end;
+        
     } */
+
+    #navLinks.navbar-collapse {
+        padding-left: 70%;
+        
+    }
+
+    a.nav-link {
+        font-size: 1.2rem;
+        text-align: center;
+        /* padding-left: 70%; */
+        padding: 10px 0px 10px 0px;
+    }
+
+    #top-link {
+        padding-top: 25px;
+    }
+    #resumeBtn {
+        font-size: 1.2rem;
+        
+    
+    }
+
+    ul {
+        margin-right: 0px;
+    }
 
     
 
@@ -179,15 +216,27 @@ a.keyWord:hover:before {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    
+
+    /* #navLinks.navbar-collapse {
+        padding-left: 70%;
+        
+    } */
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    
 
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-
+    
 }
 
+@media(min-width: 575.98px){
+    br.brSM {
+        display: none;
+    }
+}
