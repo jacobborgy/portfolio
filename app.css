@@ -185,7 +185,7 @@ ul {
     } */
 
     #navLinks.navbar-collapse {
-        padding-left: 70%;
+        /* padding-left: 50%; */
         
     }
 
@@ -193,7 +193,8 @@ ul {
         font-size: 1.2rem;
         text-align: center;
         /* padding-left: 70%; */
-        padding: 10px 0px 10px 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     #top-link {
@@ -201,8 +202,12 @@ ul {
     }
     #resumeBtn {
         font-size: 1.2rem;
-        
+        align-items: center;
     
+    }
+
+    li.nav-item {
+        text-align: center;
     }
 
     ul {
@@ -236,7 +241,7 @@ ul {
 }
 
 @media(min-width: 575.98px){
-    br.brSM {
+    .brSM {
         display: none;
     }
 }
