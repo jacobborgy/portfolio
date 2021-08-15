@@ -70,7 +70,7 @@ body {
     font-size: 1em;
     padding-bottom: 40px;
 }
-#sectionIntro a{
+#getInTouch{
     color: #3AAFA9;
     text-decoration: none;
     border: solid 1px #3AAFA9;
@@ -79,13 +79,41 @@ body {
     border-radius: 10px;
 }
 
-#sectionIntro a:hover{
+#getInTouch:hover{
     background-color: rgb(58, 175, 169, .2);
 }
 
 .eachRow {
     padding: 250px 0;
 }
+
+#aboutMe {
+    color: #FEFFFF;
+}
+
+a.keyWord {
+    color: #3AAFA9;
+    position: relative;
+    text-decoration: none;
+}
+a.keyWord::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #3AAFA9;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+a.keyWord:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
 
 
 
