@@ -166,6 +166,7 @@ a.keyWord:hover:before {
     .navbar-dark .navbar-toggler {
         color: #3AAFA9;
         border-color: #3AAFA9;
+        outline: none;
     }
     /* .navbar-toggler-icon{
         color: #3AAFA9;
