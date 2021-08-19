@@ -58,6 +58,8 @@ a.keyWord:hover:before {
 
 
 
+
+
 /* Navbar */
 #mainNavbar {
     font-size: 1rem;
@@ -101,7 +103,7 @@ a.keyWord:hover:before {
 /* Intro Section */
 #sectionIntro h1{
     color: #3AAFA9;
-    font-size: 1.5em;
+    font-size: 2em;
     padding-bottom: 20px;
 }
 #sectionIntro h2{
@@ -110,14 +112,34 @@ a.keyWord:hover:before {
 }
 #sectionIntro h3{
     color: #aaaaaa;
-    font-size: 4em;
+    font-size: 3.9em;
     padding-bottom: 20px;
 }
 #sectionIntro p{
     color: #aaaaaa;
-    font-size: 1em;
+    font-size: 1.25em;
     padding-bottom: 40px;
 }
+
+
+/* About Section */
+#sectionAbout h1{
+    color: #3AAFA9;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+#sectionAbout p{
+    color: #aaaaaa;
+    font-size: 1.25em;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -147,7 +169,6 @@ a.keyWord:hover:before {
 
 
 
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .eachRow {
@@ -159,7 +180,7 @@ a.keyWord:hover:before {
         padding: 20px 0px;
     }
     #sectionIntro h1 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         margin: 0px 0px 8px;
         padding: 0px 0px;
     }
@@ -170,7 +191,7 @@ a.keyWord:hover:before {
         font-size: 2rem;
     }
     #sectionIntro p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     #getInTouch {
         font-size: 1.25rem;
@@ -206,7 +227,12 @@ a.keyWord:hover:before {
         margin-right: 0px;
     }
 
-    
+    #sectionAbout h1{
+        font-size: 1.75em;
+    }
+    #sectionAbout p{
+        font-size: 1.1rem;
+    }
 
 }
 
@@ -222,7 +248,9 @@ a.keyWord:hover:before {
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-    
+    #skills {
+        font-size: 100px;
+    }
 }
 
 /* Removes <br> from screens small and up */
