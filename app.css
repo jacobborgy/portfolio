@@ -122,6 +122,9 @@ a.keyWord:hover:before {
 }
 
 
+
+
+
 /* About Section */
 #sectionAbout h1{
     color: #3AAFA9;
@@ -138,8 +141,49 @@ a.keyWord:hover:before {
 
 
 
+/* Skills Section */
+#sectionSkills h1{
+    color: #3AAFA9;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+#sectionSkills p{
+    color: #aaaaaa;
+    font-size: 1.25em;
+    padding-bottom: 40px;
+}
 
 
+
+
+
+/* Projects Section */
+#sectionProjects h1{
+    color: #3AAFA9;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+#sectionProjects p{
+    color: #aaaaaa;
+    font-size: 1.25em;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+/* Contact Section */
+#sectionContact h1{
+    color: #3AAFA9;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+#sectionContact p{
+    color: #aaaaaa;
+    font-size: 1.25em;
+    padding-bottom: 40px;
+}
 
 
 
@@ -233,6 +277,32 @@ a.keyWord:hover:before {
     #sectionAbout p{
         font-size: 1.1rem;
     }
+
+
+    #sectionSkills h1{
+        font-size: 1.75em;
+    }
+    #sectionSkills p{
+        font-size: 1.1rem;
+    }
+
+
+    #sectionProjects h1{
+        font-size: 1.75em;
+    }
+    #sectionProjects p{
+        font-size: 1.1rem;
+    }
+
+
+    #sectionContact h1{
+        font-size: 1.75em;
+    }
+    #sectionContact p{
+        font-size: 1.1rem;
+    }
+
+    
 
 }
 
