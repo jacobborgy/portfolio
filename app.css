@@ -55,8 +55,39 @@ a.keyWord:hover:before {
 }
 
 #hs {
-    width: 50%;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25%;
+    box-shadow: none;
+    
+    border: solid 2px #FEFFFF;
+    transition: border .5s, transform .5s, box-shadow .5s;
 }
+
+#hs:hover {
+    border: solid 2px #aaaaaa;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px 5px #aaaaaa;
+}
+
+#outside {
+    position: relative;
+    
+  }
+
+/* #overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      clear: float;
+      
+      width: 50%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+    } */
 
 
 #jb_logo {
@@ -313,7 +344,10 @@ a.keyWord:hover:before {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-
+    #hs {
+        width: 250px;
+        
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
